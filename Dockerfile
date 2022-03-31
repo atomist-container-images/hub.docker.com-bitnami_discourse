@@ -90,6 +90,3 @@ FROM bitnami/discourse:2.7.13-debian-10-r32
 
 # Tags: 2.7.13-debian-10-r31
 FROM bitnami/discourse:2.7.13-debian-10-r31
-
-# Tags: 2.7.13-debian-10-r30
-FROM bitnami/discourse:2.7.13-debian-10-r30
