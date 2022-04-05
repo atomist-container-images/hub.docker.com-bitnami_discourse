@@ -1,12 +1,24 @@
-# Tags: latest, 2.8.2-debian-10-r7, 2.8.2, 2-debian-10, 2
+# Tags: latest, 2.8.2-debian-10-r11, 2.8.2, 2-debian-10, 2
 FROM bitnami/discourse:latest
-FROM bitnami/discourse:2.8.2-debian-10-r7
+FROM bitnami/discourse:2.8.2-debian-10-r11
 FROM bitnami/discourse:2.8.2
 FROM bitnami/discourse:2-debian-10
 FROM bitnami/discourse:2
 
 # Tags: _
 FROM bitnami/discourse:_
+
+# Tags: 2.8.2-debian-10-r10
+FROM bitnami/discourse:2.8.2-debian-10-r10
+
+# Tags: 2.8.2-debian-10-r9
+FROM bitnami/discourse:2.8.2-debian-10-r9
+
+# Tags: 2.8.2-debian-10-r8
+FROM bitnami/discourse:2.8.2-debian-10-r8
+
+# Tags: 2.8.2-debian-10-r7
+FROM bitnami/discourse:2.8.2-debian-10-r7
 
 # Tags: 2.8.2-debian-10-r6
 FROM bitnami/discourse:2.8.2-debian-10-r6
@@ -77,16 +89,3 @@ FROM bitnami/discourse:2.8.1-debian-10-r2
 
 # Tags: 2.8.1-debian-10-r1
 FROM bitnami/discourse:2.8.1-debian-10-r1
-
-# Tags: 2.8.1-debian-10-r0
-FROM bitnami/discourse:2.8.1-debian-10-r0
-
-# Tags: 2.7.13-debian-10-r33, 2.7.13
-FROM bitnami/discourse:2.7.13-debian-10-r33
-FROM bitnami/discourse:2.7.13
-
-# Tags: 2.7.13-debian-10-r32
-FROM bitnami/discourse:2.7.13-debian-10-r32
-
-# Tags: 2.7.13-debian-10-r31
-FROM bitnami/discourse:2.7.13-debian-10-r31
